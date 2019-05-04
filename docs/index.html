@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kvanrooyen</title>
+    <!--Font Icons-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!--Compiled CSS file from Sass-->
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Navigation Bar-->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section id="home">
+        <h1>Welcome</h1>
+        <p id="tagline">
+          Hi there! I am the guy that turns your ideas into reality. Why don't
+          you have a look?
+        </p>
+        <img src="images/undraw_coding_6mjf.svg" class="home-background" />
+      </section>
+
+      <!--Display github projects-->
+      <section id="work">
+        <h1>Work</h1>
+        <p id="tagline">A collection of my most recent and popular projects.</p>
+
+        <div class="row">
+          <!-- Zeva Project -->
+          <a
+            href="https://zeva-ui.github.io"
+            target="_blank"
+            id="project-links"
+            class="item--one"
+          >
+            <h2>Zeva</h2>
+            <p>
+              Zeva is a minimalist frontend framework, used for desigining
+              responsive websites. Zeva has a scalable colour scheme, to fit all
+              your needs.
+            </p>
+          </a>
+
+          <!-- Web-Weather Project -->
+          <a
+            href="https://webweather-3ec52.firebaseapp.com/"
+            target="_blank"
+            id="project-links"
+            class="item--two"
+          >
+            <h2>Web-Weather</h2>
+            <p>
+              A simple website that uses Javascript to fetch weather information
+              from Open Weather Map. It uses a fetch API to fetch information,
+              and parses it to JSON, to eventually display the information.
+            </p>
+          </a>
+
+          <!-- Project 3-->
+          <a href="" id="project-links" class="item--three">
+            <h2>Project 3</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Aspernatur, ea nam voluptas velit, dignissimos consequatur
+              reiciendis ipsum excepturi dicta maxime provident molestias minus.
+              Accusamus eius reiciendis velit sequi aut nostrum.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h1>About</h1>
+        <p id="tagline">
+          Who am I? Here's some information about me. Take a look.
+        </p>
+
+        <!--Custom break-->
+        <style>
+          p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        </style>
+        <!--Brief summary/description of who I am, and a little about me-->
+        <p>
+          I am currently studying Software Developemt at college, but have been
+          programing as a hobby since 2016. I have had experince in the
+          following languages: C#, Java, Python, HTML5 and CSS. I feel that
+          because of my love for photography, I now have a good eye for detail.
+          You can see some of my work over <a href="#work">here</a>.
+        </p>
+      </section>
+
+      <!-- Contact details (Mail, GitHub, LinkedIn)-->
+      <section id="contact">
+        <h1>Contact</h1>
+        <p id="tagline">
+          You're interested? Great, here are some contact details.
+        </p>
+
+        <!--Links-->
+        <div id="details">
+          <a href="mailto:kvanrooyen@outlook.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://www.github.com/Kvanrooyen" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/keagan-van-rooyen-69b112182/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      //Detect wether the site is being used on a mobile device
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        //Find element with ID of "navbar" and remove it if the above conditions are met
+        document.getElementById("navbar").remove();
+      }
+    </script>
+  </body>
+</html>
