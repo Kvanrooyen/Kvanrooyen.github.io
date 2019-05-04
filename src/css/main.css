@@ -85,7 +85,7 @@ section {
 
 section#home .home-background {
   text-indent: -9999px;
-  background: url(/src/images/undraw_coding_6mjf.svg);
+  background: url(src/images/undraw_coding_6mjf.svg);
   width: 60%;
   height: 60%; }
 

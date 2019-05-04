@@ -19,7 +19,7 @@ const AUTOPREFIXER_BROWSERS = [
 //Compile SCSS to CSS
 function style() {
   // 1. Find SCSS file
-  return gulp.src('docs/scss/**/*.scss')
+  return gulp.src('src/scss/**/*.scss')
   // 2. Pass file through SASS compiler
   .pipe(sass({
     outputStyle: 'nested',
@@ -29,13 +29,13 @@ function style() {
   }))
   .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
   // 3. Where to save CSS file
-  .pipe(gulp.dest('docs/css'))
+  .pipe(gulp.dest('src/css'))
   // 3.5 Minify CSS
   .pipe(csso ())
   //Rename minified CSS file
   .pipe(rename ('main.min.css'))
   //Save minified CSS file
-  .pipe(gulp.dest('docs/css'))
+  .pipe(gulp.dest('src/css'))
   // 4. Stream changes to all browsers
   .pipe(browserSync.stream());
 }
@@ -44,12 +44,12 @@ function style() {
 function watch(){
   browserSync.init({
     server: {
-      baseDir: './docs'
+      baseDir: './'
     }
   });
-  gulp.watch('docs/scss/**/*.scss', style);
-  gulp.watch('docs/*.html').on('change', browserSync.reload);
-  gulp.watch('docs/scss/**/*.scss').on('change', browserSync.reload);
+  gulp.watch('src/scss/**/*.scss', style);
+  gulp.watch('src/*.html').on('change', browserSync.reload);
+  gulp.watch('src/scss/**/*.scss').on('change', browserSync.reload);
 }
 
 exports.style = style;
