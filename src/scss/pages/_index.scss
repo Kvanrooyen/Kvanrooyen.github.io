@@ -75,6 +75,7 @@ section#contact {
       //On mouse hover, zoom in by a scale of 1.5
       &:hover {
         transform: scale(1.5);
+        transition-duration: 0.3s;
       }
     }
 
@@ -83,6 +84,7 @@ section#contact {
       //On mouse hover, zoom in by a scale of 1.5
       &:hover {
         transform: scale(1.5);
+        transition-duration: 0.3s;
       }
     }
   }
