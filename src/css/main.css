@@ -105,10 +105,12 @@ section#contact #details {
     color: #000; }
   section#contact #details .fas:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5); }
+            transform: scale(1.5);
+    transition-duration: 300ms; }
   section#contact #details .fab:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5); }
+            transform: scale(1.5);
+    transition-duration: 300ms; }
 
 div .row {
   display: -webkit-flex;
