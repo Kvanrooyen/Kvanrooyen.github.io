@@ -89,6 +89,9 @@ section#home .home-background {
   width: 60%;
   height: 60%; }
 
+section#home #heading-welcome {
+  padding-top: 6%; }
+
 section#about a {
   color: cornflowerblue;
   text-transform: none; }
