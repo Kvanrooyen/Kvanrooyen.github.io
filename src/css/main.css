@@ -105,10 +105,12 @@ section#contact #details {
     color: #000; }
   section#contact #details .fas:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5); }
+            transform: scale(1.5);
+    transition-duration: 0.3s; }
   section#contact #details .fab:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5); }
+            transform: scale(1.5);
+    transition-duration: 0.3s; }
 
 div .row {
   display: -webkit-flex;
@@ -173,7 +175,8 @@ div .item--three {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     max-width: 100%;
-    margin: 10px; } }
+    margin: 10px;
+    padding: 15px; } }
 
 #project-links {
   text-decoration: none;
