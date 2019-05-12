@@ -93,7 +93,7 @@ div {
     display: flex;
     flex-direction: row;
     //Add 10px of padding to parent element
-    padding: 10px;
+    padding: 15px 60px;
   }
 
   .item--one {
@@ -102,7 +102,7 @@ div {
     //Add material design drop shadow and hover transition
     border-radius: 5px;
     //Add 10px margin to each child element - equaling 20px spacing in total
-    margin: 10px;
+    margin: 15px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     &:hover {
@@ -120,7 +120,7 @@ div {
     //Add material design drop shadow and hover transition
     border-radius: 5px;
     //Add 10px margin to each child element - equaling 20px spacing in total
-    margin: 5px;
+    margin: 15px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     &:hover {
@@ -138,7 +138,7 @@ div {
     //Add material design drop shadow and hover transition
     border-radius: 10px;
     //Add 10px margin to each child element - equaling 20px spacing in total
-    margin: 10px;
+    margin: 15px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     &:hover {
