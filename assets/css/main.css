@@ -1,59 +1,31 @@
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
+/* ---- reset ---- */
+body {
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 
-.column {
-  float: left;
-  padding: 0 1%;
-}
-
-.left {
-  width: 33%;
-}
-
-.right {
-  width: 66%;
-}
-
-.heading {
-  font-weight: 500;
-}
-
-#details {
+/* ---- particles.js container ---- */
+#particles-js {
+  position: fixed;
   width: 100%;
-}
-#details a {
-  font-size: 2rem;
-  padding: 20px;
-  border-radius: 50%;
-  color: #000;
-}
-#details .fas:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  transition-duration: 0.3s;
-}
-#details .fab:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  transition-duration: 0.3s;
+  height: 100%;
+  background-color: #6495ed;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-@media screen and (max-width: 720px) {
-  .column {
-    width: 100%;
-    padding: 0 10px;
-  }
-  .left {
-    order: 2;
-  }
-  .right {
-    order: 1;
+.rotate {
+  color: #651fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 20%;
+}
+@media only screen and (max-width: 720px) {
+  .intro-heading {
+    font-size: 2.3rem;
   }
 }

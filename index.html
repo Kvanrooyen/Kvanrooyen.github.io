@@ -12,133 +12,70 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/simpletextrotator.css" />
   </head>
   <body>
-    <div class="center-align">
-      <div class="row">
-        <div class="column left">
-          <h3 class="heading">About</h3>
-          <!-- TODO Add a photo to the top of the text-->
-          <p>
-            Keagan is a student currently studying software development. He took
-            on programming as a hobby in 2016, and has had experience in the
-            following langauges: C#, Java, Python, HTML5, CSS and Sass. Keagan's
-            passion is for front end and automation, he does still love learning
-            something new. You can view his CV <a href="assets/Keagan CV.pdf">here.</a>
-          </p>
-        <!--Social Links-->
-        <div id="details">
-            <a href="mailto:kvanrooyen@outlook.com">
-              <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://www.github.com/Kvanrooyen" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
+    <!-- particles.js container -->
+    <div id="particles-js">
+      <div
+        class="valign-wrapper"
+        style="width:100%;height:100%;position: absolute;"
+      >
+        <div class="valign" style="width:100%;">
+          <div class="container center-align">
+            <div class="row">
+              <div class="col s12 m6 offset-m3">
+                <h3 class="intro-heading">
+                  Hi, I'm Keagan and I'm a
+                </h3>
+                <span class="rotate">
+                  Problem Solver, Team Player, Creative Thinker
+                </span>
+              </div>
+            </div>
             <a
-              href="https://www.linkedin.com/in/keagan-van-rooyen-69b112182/"
-              target="_blank"
+              href="#"
+              class="btn waves-effect waves-light deep-purple accent-2"
             >
-              <i class="fab fa-linkedin"></i>
+              Look at my work
             </a>
           </div>
-        </div>
-
-        <div class="column right">
-          <h3 class="heading">Projects</h3>
-          <!-- Project Card 1-->
-          <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card One</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 2-->
-          <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card Two</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 3-->
-          <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card Three</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-
-           <!-- Project Card 4-->
-        <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card Four</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 5-->
-          <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card Five</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 6-->
-          <div class="col s12 m6 l4">
-            <div class="card whitesmoke lighten-1">
-              <div class="card-content black-text">
-                <span class="card-title heading">Card Six</span>
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </div>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/particle.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Simlpe-Text-Rotator -->
+    <script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".rotate").textrotator({
+          animation: "flipUp",
+          speed: 2500
+        });
+      });
+    </script>
   </body>
 </html>
