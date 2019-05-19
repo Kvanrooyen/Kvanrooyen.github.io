@@ -31,6 +31,27 @@ body {
   padding: 0 1.2rem;
 }
 
+#details {
+  width: 100%;
+  padding-top: 1%;
+}
+#details a {
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 50%;
+  color: #000;
+}
+#details .fas:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+#details .fab:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
 @media only screen and (max-width: 720px) {
   .intro-heading {
     font-size: 2.3rem;
