@@ -11,19 +11,27 @@ body {
   width: 100%;
   height: 100%;
   background-color: #1976d2; /* Primary */
+  background: linear-gradient(
+    90deg,
+    rgba(25, 118, 210, 1) 0%,
+    rgba(20, 139, 220, 1) 25%,
+    rgba(13, 164, 232, 1) 50%,
+    rgba(6, 189, 244, 1) 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: 100%;
-  -webkit-filter: blur(1.5px);
-  -moz-filter: blur(1.5px);
-  -o-filter: blur(1.5px);
-  -ms-filter: blur(1.5px);
-  filter: blur(1.5px);
+  -webkit-filter: blur(1.2px);
+  -moz-filter: blur(1.2px);
+  -o-filter: blur(1.2px);
+  -ms-filter: blur(1.2px);
+  filter: blur(1.2px);
 }
 
 .rotate {
   color: #f24236; /* Accent */
   font-weight: bold;
-  -webkit-text-stroke: 0.3px #000;
+  -webkit-text-stroke: 0.2px #000;
   /* text-shadow: #000 0px 0px 1px; */
 }
 
