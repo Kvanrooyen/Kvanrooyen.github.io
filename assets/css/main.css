@@ -42,7 +42,6 @@ body {
   color: #f24236; /* Accent */
   font-weight: bold;
   -webkit-text-stroke: 0.2px #000;
-  /* text-shadow: #000 0px 0px 1px; */
 }
 
 .btn {
@@ -78,13 +77,12 @@ body {
   border-radius: 50%;
   color: #1976d2;
 }
-#details .fas:hover {
+#details .fas:hover,
+.fab:hover {
   -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  transition-duration: 0.3s;
-}
-#details .fab:hover {
-  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
   transition-duration: 0.3s;
 }
