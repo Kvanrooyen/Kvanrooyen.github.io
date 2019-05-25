@@ -1,0 +1,24 @@
+#details {
+  width: 100%;
+  padding-top: 1%;
+}
+#details a {
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 50%;
+  color: $primary-colour;
+}
+#details .fas:hover,
+.fab:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
+.fa-github-square,
+.fa-envelope {
+  color: #000;
+}

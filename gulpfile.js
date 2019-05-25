@@ -21,7 +21,7 @@ function style() {
   // 1. Find SCSS file
   return (
     gulp
-      .src("src/scss/**/*.scss")
+      .src("scss/**/*.scss")
       // 2. Pass file through SASS compiler
       .pipe(
         sass({
@@ -49,7 +49,7 @@ function style() {
 function watch() {
   browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: "."
     }
   });
   gulp.watch("scss/**/*.scss", style);

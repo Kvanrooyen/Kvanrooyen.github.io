@@ -1,0 +1,43 @@
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: $primary-colour; /* Primary */
+  background: linear-gradient(
+    90deg,
+    $gradient-0,
+    $gradient-25,
+    $gradient-50,
+    $gradient-75,
+    $gradient-100
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-filter: blur(1.2px);
+  -moz-filter: blur(1.2px);
+  -o-filter: blur(1.2px);
+  -ms-filter: blur(1.2px);
+  filter: blur(1.2px);
+}
+
+.valign-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.valign {
+  width: 100%;
+}
+
+.rotate {
+  color: #f24236; /* Accent */
+  font-weight: bold;
+  -webkit-text-stroke: 0.2px #000;
+}
+
+@media only screen and (max-width: $break-small) {
+  .intro-heading {
+    font-size: 2.3rem;
+  }
+}
