@@ -1,7 +1,7 @@
 {
   "name": "kvanrooyen.github.io",
   "version": "1.0.0",
-  "description": "Programming portfolio for Keagan van Rooyen",
+  "description": "A portfolio website",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp watch"
@@ -19,12 +19,8 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-csso": "^3.0.1",
-    "gulp-rename": "^1.4.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2"
-  },
-  "dependencies": {
-    "gulp-cli": "^2.2.0"
   }
 }

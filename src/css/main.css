@@ -45,8 +45,7 @@ body {
     padding: 0; } }
 
 .btn {
-  margin-top: 20%;
-  background-color: #f24236; }
+  margin-top: 20%; }
 
 .card {
   padding: 0 0.3rem; }
@@ -71,6 +70,9 @@ body {
 #details .fas:hover,
 .fab:hover {
   -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
   transition-duration: 0.3s; }
 
